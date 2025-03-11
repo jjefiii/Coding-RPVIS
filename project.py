@@ -1,4 +1,4 @@
-c = float(input("Enter the temperature in Celsius: "))
+c = float(input("Enter the desired temperature in Celsius: "))
 f = (c - 32) * 5 / 9
 f = round(f, 1)
 k = 273.5 + ((f - 32.0) * (5.0/9.0))
